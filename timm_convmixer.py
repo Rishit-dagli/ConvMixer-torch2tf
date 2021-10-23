@@ -1,7 +1,8 @@
 """
 As the name suggests this module is a copy of the convmixer module from
 [timm](https://github.com/rwightman/pytorch-image-models) with a couple of
-changes specially to allow converting the model.
+changes specially to allow converting the model. This updates the way the 
+model handles padding in a `nn.Conv2D` layer to allow it to be converted.
 """
 
 from functools import reduce
