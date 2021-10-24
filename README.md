@@ -12,6 +12,8 @@ This repository hosts code for converting the original ConvMixer [^1] (PyTorch) 
 
 ConvMixer is a simple model, proposed in the paper "Patches Are All You Need?" [^2] for image classification pre-trained on ImageNet-1K. ConvMixer uses only standard convolutions to achieve the mixing steps. Despite it's simplicity it outperforms ViT and MLP-Mixer. Using the [`conversion.ipynb`](conversion.ipynb) notebook, one should be able to take a model from the pre-trained models and convert that to TensorFlow and use that with TensorFlow Hub and Keras.
 
+![](media/architecture.png)
+
 The original model classes and weights were converted using the `onnx-tf` tool [^3].
 
 ## About the Notebooks
