@@ -1,4 +1,11 @@
-# ConvMixer-torch2tf
+# ConvMixer-torch2tf [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FRishit-dagli%2FConvMixer-torch2tf)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FRishit-dagli%2FConvMixer-torch2tf)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rishit-dagli/ConvMixer-torch2tf/blob/main/classification.ipynb)
+
+![GitHub License](https://img.shields.io/github/license/Rishit-dagli/ConvMixer-torch2tf)
+[![GitHub stars](https://img.shields.io/github/stars/Rishit-dagli/ConvMixer-torch2tf?style=social)](https://github.com/Rishit-dagli/ConvMixer-torch2tf/stargazers)
+[![GitHub followers](https://img.shields.io/github/followers/Rishit-dagli?label=Follow&style=social)](https://github.com/Rishit-dagli)
+[![Twitter Follow](https://img.shields.io/twitter/follow/rishit_dagli?style=social)](https://twitter.com/intent/follow?screen_name=rishit_dagli)
 
 ![](media/example.png)
 
