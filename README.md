@@ -1,5 +1,7 @@
 # ConvMixer-torch2tf
 
+![](media/example.png)
+
 This repository hosts code for converting the original ConvMixer [^1] (PyTorch) models to TensorFlow. In this repo we convert these 3 ConvMixer models to TensorFlow SavedModels:
 
 | Model Name | resolution | acc@1 | #params | File Size | TensorFlow Model |
