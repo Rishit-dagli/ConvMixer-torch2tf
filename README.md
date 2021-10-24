@@ -26,6 +26,32 @@ This notebook demonstrates how the models were converted to TensorFlow SavedMode
 
 This noteboook demonstrates how to load a ConvMixer Model varaint and run image classification using TensorFlow and TensorFlow Hub [^5]. This notebook will soon be updated to fetch models from tfhub.dev. These models can be used in the exact same manner with TensorFlow Keras too.
 
+## Want to Contribute 🙋‍♂️?
+
+Awesome! If you want to contribute to this project, you're always welcome! See [Contributing Guidelines](CONTRIBUTING.md). You can also take a look at [open issues](https://github.com/Rishit-dagli/ConvMixer-torch2tf/issues) for getting more information about current or upcoming tasks.
+
+## Want to discuss? 💬
+
+Have any questions, doubts or want to present your opinions, views? You're always welcome. You can [start discussions](https://github.com/Rishit-dagli/ConvMixer-torch2tf/discussions).
+
+## License
+
+```
+Copyright 2020 Rishit Dagli
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
 ## References
 
 [^1]: Official Code Implementation: https://github.com/tmp-iclr/convmixer
