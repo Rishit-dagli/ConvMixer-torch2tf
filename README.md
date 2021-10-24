@@ -1,7 +1,6 @@
 # ConvMixer-torch2tf [![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2FRishit-dagli%2FConvMixer-torch2tf)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FRishit-dagli%2FConvMixer-torch2tf)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rishit-dagli/ConvMixer-torch2tf/blob/main/classification.ipynb)
-
 ![GitHub License](https://img.shields.io/github/license/Rishit-dagli/ConvMixer-torch2tf)
 [![GitHub stars](https://img.shields.io/github/stars/Rishit-dagli/ConvMixer-torch2tf?style=social)](https://github.com/Rishit-dagli/ConvMixer-torch2tf/stargazers)
 [![GitHub followers](https://img.shields.io/github/followers/Rishit-dagli?label=Follow&style=social)](https://github.com/Rishit-dagli)
@@ -13,9 +12,9 @@ This repository hosts code for converting the original ConvMixer [^1] (PyTorch) 
 
 | Model Name | resolution | acc@1 | #params | File Size | TensorFlow Model |
 |------------|:---:|:---:|:---:|----------:|:--------------:|
-| ConvMixer-1536/20 | 224x224 | 81.37 | 51.6 x 10^6 | 184MB | [github](https://github.com/Rishit-dagli/ConvMixer-torch2tf/releases/download/untagged-de81892a1b06347b8d97/convmixer_1536_20.tar.gz)/[drive](https://drive.google.com/file/d/1qrzap4vi2KFQTHxf9h_AMbWGvtbP5rIA/view?usp=sharing)/[bucket](https://storage.googleapis.com/convmixer-hubmodels.appspot.com/convmixer_1536_20.tar.gz) |
-| ConvMixer-768/32 | 224x224 | 80.16 | 21.1 x 10^6 | 75MB | [github](https://github.com/Rishit-dagli/ConvMixer-torch2tf/releases/download/untagged-de81892a1b06347b8d97/convmixer_768_32.tar.gz)/[drive](https://drive.google.com/file/d/1NJgHKjPd3YC8XHypQIs5A05XKd15o0s3/view?usp=sharing)/[bucket](https://storage.googleapis.com/convmixer-hubmodels.appspot.com/convmixer_768_32.tar.gz) |
-| ConvMixer-1024/20 | 224x224 | 76.94 | 24.4 x 10^6 | 87MB | [github](https://github.com/Rishit-dagli/ConvMixer-torch2tf/releases/download/untagged-de81892a1b06347b8d97/convmixer_1024_20.tar.gz)/[drive](https://drive.google.com/file/d/1--jRgK0KmLtWCJswYtfxSIfEcjAOrJyv/view?usp=sharing)/[bucket](https://storage.googleapis.com/convmixer-hubmodels.appspot.com/convmixer_1024_20.tar.gz) |
+| ConvMixer-1536/20 | 224x224 | 81.37 | 51.6 x 10^6 | 184MB | [github](https://github.com/Rishit-dagli/ConvMixer-torch2tf/releases/download/v0.1.0/convmixer_1536_20.tar.gz)/[drive](https://drive.google.com/file/d/1qrzap4vi2KFQTHxf9h_AMbWGvtbP5rIA/view?usp=sharing)/[bucket](https://storage.googleapis.com/convmixer-hubmodels.appspot.com/convmixer_1536_20.tar.gz) |
+| ConvMixer-768/32 | 224x224 | 80.16 | 21.1 x 10^6 | 75MB | [github](https://github.com/Rishit-dagli/ConvMixer-torch2tf/releases/download/v0.1.0/convmixer_768_32.tar.gz)/[drive](https://drive.google.com/file/d/1NJgHKjPd3YC8XHypQIs5A05XKd15o0s3/view?usp=sharing)/[bucket](https://storage.googleapis.com/convmixer-hubmodels.appspot.com/convmixer_768_32.tar.gz) |
+| ConvMixer-1024/20 | 224x224 | 76.94 | 24.4 x 10^6 | 87MB | [github](https://github.com/Rishit-dagli/ConvMixer-torch2tf/releases/download/v0.1.0/convmixer_1024_20.tar.gz)/[drive](https://drive.google.com/file/d/1--jRgK0KmLtWCJswYtfxSIfEcjAOrJyv/view?usp=sharing)/[bucket](https://storage.googleapis.com/convmixer-hubmodels.appspot.com/convmixer_1024_20.tar.gz) |
 
 ConvMixer is a simple model, proposed in the paper "Patches Are All You Need?" [^2] for image classification pre-trained on ImageNet-1K. ConvMixer uses only standard convolutions to achieve the mixing steps. Despite it's simplicity it outperforms ViT and MLP-Mixer. Using the [`conversion.ipynb`](conversion.ipynb) notebook, one should be able to take a model from the pre-trained models and convert that to TensorFlow and use that with TensorFlow Hub and Keras.
 
