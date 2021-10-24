@@ -22,7 +22,7 @@ The original model classes and weights were converted using the `onnx-tf` tool [
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rishit-dagli/ConvMixer-torch2tf/blob/main/conversion.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Rishit-dagli/ConvMixer-torch2tf/HEAD?labpath=conversion.ipynb)
 
-This notebook demonstrates how the models were converted to TensorFlow SavedModel and uses `tf-onnx` [^3] tool to do so. This notebook loads the ConvMixer model using timm (PyTorch Image Models) [^4] modifying some of the code to allow doing so as shown in the [`timm_convmixer.py`](timm_convmixer.py) file in this repo.
+This notebook demonstrates how the models were converted to TensorFlow SavedModel and uses `onnx-tf` [^3] tool to do so. This notebook loads the ConvMixer model using timm (PyTorch Image Models) [^4] modifying some of the code to allow doing so as shown in the [`timm_convmixer.py`](timm_convmixer.py) file in this repo.
 
 ### [`classification.ipynb`](classification.ipynb)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rishit-dagli/ConvMixer-torch2tf/blob/main/classification.ipynb)
