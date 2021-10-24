@@ -12,8 +12,24 @@ ConvMixer is a simple model, proposed in the paper "Patches Are All You Need?" [
 
 The original model classes and weights were converted using the `onnx-tf` tool [^3].
 
+## About the Notebooks
+
+### [`conversion.ipynb`](conversion.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rishit-dagli/ConvMixer-torch2tf/blob/main/conversion.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Rishit-dagli/ConvMixer-torch2tf/HEAD?labpath=conversion.ipynb)
+
+This notebook demonstrates how the models were converted to TensorFlow SavedModel and uses `tf-onnx` [^3] tool to do so. This notebook loads the ConvMixer model using timm (PyTorch Image Models) [^4] modifying some of the code to allow doing so as shown in the [`timm_convmixer.py`](timm_convmixer.py) file in this repo.
+
+### [`classification.ipynb`](classification.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rishit-dagli/ConvMixer-torch2tf/blob/main/classification.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Rishit-dagli/ConvMixer-torch2tf/HEAD?labpath=classification.ipynb)
+
+This noteboook demonstrates how to load a ConvMixer Model varaint and run image classification using TensorFlow and TensorFlow Hub [^5]. This notebook will soon be updated to fetch models from tfhub.dev. These models can be used in the exact same manner with TensorFlow Keras too.
+
 ## References
 
 [^1]: Official Code Implementation: https://github.com/tmp-iclr/convmixer
 [^2]: Anonymous. Patches Are All You Need? 2021. openreview.net, https://openreview.net/forum?id=TVHS5Y4dNvM.
 [^3]: onnx-tensorflow. Tensorflow Backend for ONNX. https://github.com/onnx/onnx-tensorflow
+[^4]: Ross Wightman, . "PyTorch Image Models." https://github.com/rwightman/pytorch-image-models. (2019).
+[^5]: TensorFlow Hub. https://www.tensorflow.org/hub
