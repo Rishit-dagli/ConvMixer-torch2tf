@@ -6,9 +6,13 @@
 [![GitHub followers](https://img.shields.io/github/followers/Rishit-dagli?label=Follow&style=social)](https://github.com/Rishit-dagli)
 [![Twitter Follow](https://img.shields.io/twitter/follow/rishit_dagli?style=social)](https://twitter.com/intent/follow?screen_name=rishit_dagli)
 
+[![Open TF Hub](https://img.shields.io/badge/open-TF%20Hub-orange?style=flat&logo=tensorflow)](https://tfhub.dev/rishit-dagli/collections/convmixer)
+
 ![](media/example.png)
 
 This repository hosts code for converting the original ConvMixer [^1] (PyTorch) models to TensorFlow. In this repo we convert these 6 ConvMixer models to TensorFlow SavedModels:
+
+*The models can also be found on [TensorFlow Hub](https://tfhub.dev/rishit-dagli/collections/convmixer)*
 
 | Model Name | Fine-tunable | Resolution | acc@1 | #params | File Size | TensorFlow Model |
 |------------|:---:|:---:|:---:|:---:|----------:|:--------------:|
